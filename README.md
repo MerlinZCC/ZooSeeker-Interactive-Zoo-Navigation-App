@@ -11,24 +11,31 @@ ZooSeeker is an Android application designed to enhance the visitor experience a
 
 ## Screenshots and Demo Video
 
-![Directions View](/admin/directionsView.png)
-*The directions screen showing navigation to the Lion exhibit.*
+![Map View](/mapView.png)
 
-![Map View](/admin/mapView.png)
 *Map view with exhibit search functionality.*
 
-![Exhibit Details](/admin/exhibitDetails.png)
+![Exhibit Details](/exhibitDetails.png)
+
 *Detailed information about the Siamangs exhibit.*
 
-![Plan View](/admin/planView.png)
+
+![African Plains Carousel](/africanPlainsCarousel.png)
+
+*Carousel view of the African Plains exhibit, showcasing animals like zebras and giraffes.*
+
+![Plan View](/planView.png)
+
 *User's plan view showing selected exhibits.*
 
-![African Plains Carousel](/admin/africanPlainsCarousel.png)
-*Carousel view of the African Plains exhibit, showcasing animals like zebras and giraffes.*
+
+![Directions View](/directionsView.png)
+
+*The directions screen showing navigation to the Lion exhibit.*
 
 ### Demo Video
 Watch our demo video to see ZooSeeker in action:  
-[![ZooSeeker Demo Video](/admin/demoVideoThumbnail.png)](https://www.youtube.com/link-to-demo-video)
+https://drive.google.com/file/d/1lerUOz0uVX0yW8J89M2urawCvCeHSEaK/view?usp=sharing
 
 ## Key Features Demonstrated
 
@@ -72,15 +79,6 @@ After installation, start the app and follow the on-screen instructions to selec
 - **Google Material Design**: UI components for a modern and intuitive user experience.
 - **Local Storage**: Ensures data persistence for user plans and exhibit information.
 
-### Dependencies
-
-- **Material Components** (`com.google.android.material:material:1.12.0`)
-- **AndroidX Testing** (`androidx.test:core:1.4.0`)
-- **Android Jetpack Navigation** (`androidx.navigation:navigation-fragment:2.6.0`, `androidx.navigation:navigation-ui:2.6.0`)
-- **Glide** (`com.github.bumptech.glide:glide:4.12.0`)
-- **Gson** (`com.google.code.gson:gson:2.9.0`)
-- **Room Persistence Library** (`androidx.room:room-runtime:2.4.2`)
-
 ## Testing
 
 The app includes unit and instrumental tests to ensure its functionality and performance:
@@ -101,5 +99,5 @@ Run tests using the following command in Android Studio:
 
 ## Contributors
 
-This project was developed by a team of 9 as part of a course project.  
-![Team Image](/admin/teamImage.png)
+This project was developed by a team of 9 as part of an Advanced Software Engineering project.
+![Team Image](/teamImage.png)
