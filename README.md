@@ -1,23 +1,23 @@
 # ZooSeeker: Interactive Zoo Navigation App
 
-ZooSeeker is an Android application designed to enhance the visitor experience at the San Diego Zoo. The app helps users navigate the zoo efficiently by allowing them to create visitation plans, search for exhibits, and get real-time directions based on their location within the zoo. The map-style interface enables users to plot actionable paths to the exhibits they want to visit.
+ZooSeeker is an Android application designed to enhance the visitor experience at Powell Zoo, a fictional zoo created for this project. The app helps users navigate the zoo efficiently by allowing them to create visitation plans, search for exhibits, and get step-by-step directions based on a custom-made map of the zoo. The map-style interface enables users to plot actionable paths to the exhibits they want to visit.
 
 ## Features
 
 - **Plan Visits**: Create, modify, and manage visitation plans for a customized zoo experience.
 - **Search for Exhibits**: Easily search through an extensive database of zoo exhibits to find specific animals or attractions.
-- **Navigation**: Provides step-by-step directions with real-time updates, ensuring visitors never lose their way.
-- **Location Awareness**: Utilizes real-time location data to enhance navigation and exhibit discovery.
+- **Navigation**: Provides step-by-step directions to exhibits based on the zoo's map, ensuring visitors never lose their way.
+- **Map Interface**: The app uses a fictional map of Powell Zoo, allowing users to visualize their routes and plan accordingly.
 
 ## Screenshots and Demo Video
 
 ![Map View](/mapView.png)
 
-*Map view with exhibit search functionality.*
+*Map View with Exhibit Search Functionality and Interactive Confirmation to Add Exhibit to Plan*
 
 ![Exhibit Details](/exhibitDetails.png)
 
-*Detailed information about the Siamangs exhibit.*
+*Detailed Information about the Siamangs Exhibit*
 
 
 ![African Plains Carousel](/africanPlainsCarousel.png)
@@ -39,7 +39,7 @@ https://drive.google.com/file/d/1lerUOz0uVX0yW8J89M2urawCvCeHSEaK/view?usp=shari
 
 ## Key Features Demonstrated
 
-- **Directions**: The app provides step-by-step directions to exhibits, including distance and time estimates.
+- **Directions**: The app provides step-by-step directions to exhibits based on the zoo's map, including distance and time estimates.
 - **Interactive Map**: Users can search for exhibits directly from the map interface, with dynamic markers indicating locations.
 - **Exhibit Information**: Detailed descriptions, conservation status, and availability times for each exhibit.
 - **Planning**: Users can create a customized plan by adding exhibits they wish to visit, ensuring they don't miss any highlights.
@@ -73,31 +73,22 @@ After installation, start the app and follow the on-screen instructions to selec
 - [Onboarding Guide](./Onboard.md)
 
 ## Technologies Used
-
 - **Android Studio**: IDE for Android app development.
 - **Java**: Programming language used for the app's backend.
 - **Google Material Design**: UI components for a modern and intuitive user experience.
 - **Local Storage**: Ensures data persistence for user plans and exhibit information.
 
 ## Testing
-
 The app includes unit and instrumental tests to ensure its functionality and performance:
 
 - **Unit Tests**: Validate the behavior of individual components.
 - **Instrumental Tests**: Ensure the app interacts correctly with Android hardware.
 
 Run tests using the following command in Android Studio:
+
 ```bash
 ./gradlew test
 ```
 
-## Future Enhancements
-
-- **Real-Time Updates**: Implement real-time updates for exhibit availability and navigation.
-- **User Reviews**: Allow users to leave reviews and ratings for exhibits.
-- **Event Integration**: Sync with the zoo's event calendar to highlight special attractions.
-
 ## Contributors
-
 This project was developed by a team of 9 as part of an Advanced Software Engineering project.
-![Team Image](/teamImage.png)
