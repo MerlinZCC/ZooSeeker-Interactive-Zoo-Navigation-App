@@ -17,21 +17,20 @@ ZooSeeker is an Android application designed to enhance the visitor experience a
 
 ![Exhibit Details](/exhibitDetails.png)
 
-*Detailed Information about the Siamangs Exhibit*
-
+*Detailed Information About the Siamangs Exhibit*
 
 ![African Plains Carousel](/africanPlainsCarousel.png)
 
-*Carousel view of the African Plains exhibit, showcasing animals like zebras and giraffes.*
+*Carousel View of the African Plains Exhibit, Showcasing Animals Like Zebras and Giraffes*
 
 ![Plan View](/planView.png)
 
-*User's plan view showing selected exhibits.*
-
+*User's Plan View Showing Selected Exhibits*
 
 ![Directions View](/directionsView.png)
 
-*The directions screen showing navigation to the Lion exhibit.*
+*The Directions Screen Showing Navigation to the Lion Exhibit*
+
 
 ### Demo Video
 Watch our demo video to see ZooSeeker in action:  
@@ -92,3 +91,4 @@ Run tests using the following command in Android Studio:
 
 ## Contributors
 This project was developed by a team of 9 as part of an Advanced Software Engineering project.
+![Team Image](/teamImage.png)
